@@ -129,16 +129,9 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
 
-### spaceship主题
+### 自定义主题
 
-```shell
-# 克隆主题仓库
-git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
-# 软连接到自定义主题目录
-ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
-# 设置环境变量
-echo 'export ZSH_THEME="spaceship"' > $ZSH_CUSTOM/theme.zsh
-```
+[xuelingkang/zsh-theme](https://github.com/xuelingkang/zsh-theme)
 
 ### 语法高亮插件
 
